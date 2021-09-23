@@ -39,7 +39,7 @@ const Header = () => {
                 <NavLink href="/">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#feature">Features</NavLink>
+                <NavLink href="#feature">Gallery</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#service">Services</NavLink>
