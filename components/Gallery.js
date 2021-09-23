@@ -46,7 +46,7 @@ const FeatureBox = (props) => {
     </>
   );
 }
-const Feature = () => {
+const Gallery = () => {
 const features = [
     {id : 1, img : "./images/45.png", title : "LOREM IPSUM", desc : "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", link : "/"},
     {id : 2, img : "./images/Group Members.png", title : "LOREM IPSUM", desc : "Sed perspiciatis unde omnis natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo excepturi sint occaecati cupiditate architecto.", link : "/"},
@@ -68,4 +68,4 @@ return (
     </section>
   );
 }
-export default Feature;
+export default Gallery;
