@@ -1,4 +1,4 @@
-import type { NextPage } from 'next';
+/*import type { NextPage } from 'next';
 import { useRef, useState } from "react";
 import type { ChangeEvent, FormEvent } from "react";
 import toast, { Toaster } from 'react-hot-toast';
@@ -8,4 +8,4 @@ const Contact: NextPage<IContact> = () => {
   return <div />;
 };
 
-export default Contact;
+export default Contact; */

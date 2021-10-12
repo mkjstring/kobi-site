@@ -29,7 +29,7 @@ const Header = () => {
 
   return (
     <div className={`header${sticky ? ' sticky' : ''}`}>
-      <Navbar light expand="md">
+      <Navbar dark expand="md">
         <Container>
           <NavbarBrand href="/">LOGO</NavbarBrand>
           <NavbarToggler onClick={toggle} />
