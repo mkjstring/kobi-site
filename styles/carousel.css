@@ -1,0 +1,7 @@
+.protect-image{
+    pointer-events: none;
+}
+
+.carousel{
+    grid-column: span 8;
+}
