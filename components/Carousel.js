@@ -1,5 +1,5 @@
 import React from "react";
-import { UncontrolledCarousel, Row, Col } from "reactstrap";
+import { UncontrolledCarousel} from "reactstrap";
 import { motion } from "framer-motion";
 
 const items = [
@@ -31,11 +31,11 @@ const Carousel = () => (
   animate={{z:-100}}
   transition={{ ease: "easeOut", duration: 2 }}
   >
-    <Row>
-      <Col md="8" className="mx-auto">
+    <div className='row'>
+      <div className='column'>
         <UncontrolledCarousel className="protect-image" items={items} />
-      </Col>
-    </Row>
+      </div>
+    </div>
   </motion.div>
 );
 
