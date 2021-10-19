@@ -9,6 +9,7 @@ import {
   NavItem,
   NavLink
 } from 'reactstrap';
+import { Toolbar } from '@mui/material';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

@@ -9,18 +9,24 @@ import Carousel from "../components/Carousel";
 
 const Index = () => {
   return (
-    <Layout pageTitle="Kobi Childers Photography">
-      <main className='main'>
-        <section></section>
-        <Header />
-        <Carousel />
-        <Hero />
-        <Gallery />
-        <Service />
-        <About />
-        <Footer></Footer>
-      </main>
-    </Layout>
+    <div>
+      <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet" />
+      </head>
+      <Layout pageTitle="Kobi Childers Photography">
+        <main className="main">
+          <section></section>
+          <Header />
+          <Carousel />
+          <Gallery />
+          <Service />
+          <About />
+          <Footer></Footer>
+        </main>
+      </Layout>
+    </div>
   );
 };
 export default Index;
