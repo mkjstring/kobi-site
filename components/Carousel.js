@@ -1,5 +1,5 @@
 import React from "react";
-import { UncontrolledCarousel} from "reactstrap";
+import { UncontrolledCarousel } from "reactstrap";
 import { motion } from "framer-motion";
 
 const items = [
@@ -27,16 +27,19 @@ const items = [
 ];
 
 const Carousel = () => (
-  <motion.div className='carousel'
-  animate={{z:-100}}
-  transition={{ ease: "easeOut", duration: 2 }}
-  >
-    <div className='row'>
-      <div className='column'>
-        <UncontrolledCarousel className="protect-image" items={items} />
+  <div className='carousel-container'>
+    <motion.div
+      className="carousel"
+      animate={{ z: -100 }}
+      transition={{ ease: "easeOut", duration: 2 }}
+    >
+      <div className="row">
+        <div className="column">
+          <UncontrolledCarousel className="protect-image" items={items} />
+        </div>
       </div>
-    </div>
-  </motion.div>
+    </motion.div>
+  </div>
 );
 
 export default Carousel;
