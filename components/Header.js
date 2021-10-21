@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import {
   Container,
   Collapse,
@@ -7,9 +7,8 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink
-} from 'reactstrap';
-import { Toolbar } from '@mui/material';
+  NavLink,
+} from "reactstrap";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +16,7 @@ const Header = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
   });
 
   const handleScroll = () => {
@@ -26,10 +25,10 @@ const Header = () => {
     } else if (window.scrollY < 90) {
       setSticky(false);
     }
-  }
+  };
 
   return (
-    <div className={`header${sticky ? ' sticky' : ''}`}>
+    <div className={`header${sticky ? " sticky" : ""}`}>
       <Navbar dark expand="md">
         <Container>
           <NavbarBrand href="/">LOGO</NavbarBrand>
@@ -37,16 +36,22 @@ const Header = () => {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="m-auto" navbar>
               <NavItem>
-                <NavLink href="/">Home</NavLink>
+                <NavLink href="/">HOME</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#feature">Gallery</NavLink>
+                <NavLink className="menu-item" href="#feature">
+                  GALLERY
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#service">Services</NavLink>
+                <NavLink className="menu-item" href="#service">
+                  SERVICES
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#about">About</NavLink>
+                <NavLink className="menu-item" href="#about">
+                  ABOUT
+                </NavLink>
               </NavItem>
             </Nav>
           </Collapse>
@@ -54,6 +59,6 @@ const Header = () => {
       </Navbar>
     </div>
   );
-}
+};
 
 export default Header;
