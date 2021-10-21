@@ -1,3 +1,10 @@
+:root{
+  --main-bg: rgb(0,0,0);
+  --main-color: rgb(131, 130, 130);
+  --content-letter-spacing: 2px;
+  --header-letter-spacing: 6px;
+}
+
 html,
 body {
   padding: 0;
@@ -5,7 +12,7 @@ body {
   /*font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;*/
     font-family: 'Archivo Narrow', sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 img{
@@ -28,5 +35,34 @@ a {
 }
 
 .main{
-  background: rgb(0, 0, 0);
+  background: var(--main-bg);
+}
+
+.sr-only{
+  display: none;
+}
+
+.wrapper{
+  max-width: 100%;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "nav"
+    "content"
+    "carousel"
+    "ad"
+    "footer";
+  padding: 0px;
+  margin: 0 auto;
+}
+
+div .column{
+  padding: 0px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.row{
+  max-width: 100%;
+  margin: 0%;
 }

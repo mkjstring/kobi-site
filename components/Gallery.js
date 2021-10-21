@@ -57,7 +57,7 @@ return (
         <div className='row' >
           <div className='column'>
             <div>
-              <h3><span className="text-warning">Features</span></h3>
+              <h3><span className="text-warning">FEATURES</span></h3>
               <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
             </div>
           </div>

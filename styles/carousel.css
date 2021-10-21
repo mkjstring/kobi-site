@@ -1,5 +1,5 @@
 .carousel-container{
-    display: grid;
+    display: flex;
     grid-template-columns: 1 fr;
     grid-template-rows: auto;
     gap: 5px;
@@ -7,8 +7,10 @@
 
 .protect-image{
     pointer-events: none;
+    text-decoration: none;
+
 }
 
-.carousel{
-    grid-column: span 8;
-}
+.sr-only{
+    display: none;
+  }
