@@ -66,3 +66,49 @@ div .column{
   max-width: 100%;
   margin: 0%;
 }
+
+.carousel {
+  height: 100vh;
+  width: 100%;
+  overflow:hidden;
+}
+.carousel .carousel-inner {
+  height:100%;    
+}
+
+#about{
+  padding-top: 100px;
+  font-family: 'Archivo Narrow';
+  letter-spacing: 2px;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: var(--main-bg);
+  padding: 25px 50px;
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: whitesmoke;
+}
