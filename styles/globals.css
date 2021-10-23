@@ -13,6 +13,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;*/
     font-family: 'Archivo Narrow', sans-serif;
     letter-spacing: 2px;
+    color: antiquewhite;
 }
 
 img{
@@ -89,6 +90,7 @@ div .column{
   align-content: center;
   background: var(--main-bg);
   padding: 25px 50px;
+  letter-spacing: 6px;
 }
 a.social {
   margin: 0 1rem;
@@ -112,4 +114,8 @@ a.twitter {
 
 a.instagram {
   color: whitesmoke;
+}
+
+.react-photo-gallery--gallery {
+  margin-top: 10px
 }
