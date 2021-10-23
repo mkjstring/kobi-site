@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function SocialFollow() {
   return (
     <div class="social-container">
-      <h3>Social Follow</h3>
+      <h3> PAPA KOBI SOCIAL</h3>
       <a
         href="https://www.youtube.com/c/jamesqquick"
         className="youtube social"

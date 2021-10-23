@@ -22,8 +22,8 @@ const Index = () => {
           <div className="content">
             <Header className="header" />
             <Carousel className="carousel" />
-            <About className="about" />
             <Gallery className="gallery" />
+            <About className="about" />
             <Service className="service" />
             <Footer></Footer>Í
           </div>
