@@ -119,3 +119,6 @@ a.instagram {
 .react-photo-gallery--gallery {
   margin-top: 10px
 }
+.react-photo-gallery--gallery > div > img{
+  margin: 10px;
+}
