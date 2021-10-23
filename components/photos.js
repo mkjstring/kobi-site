@@ -1,7 +1,7 @@
 export const photos = [
     {
-      src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
-      width: 4,
+      src: "/img/kobi/FD1U7554.jpg",
+      width: 5,
       height: 3
     },
     {
@@ -10,12 +10,12 @@ export const photos = [
       height: 1
     },
     {
-      src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
+      src: "/img/kobi/0X9A9184.jpg",
       width: 3,
       height: 4
     },
     {
-      src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
+      src: "/img/kobi/_F0A5112.jpg",
       width: 3,
       height: 4
     },
