@@ -1,4 +1,5 @@
 import React from "react";
+import SocialFollow from "./social-media";
 
 const Footer = () => {
   const links = [
@@ -83,6 +84,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <SocialFollow />
     </section>
   );
 };
