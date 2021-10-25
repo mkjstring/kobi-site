@@ -5,8 +5,8 @@ export const photos = [
       height: 3
     },
     {
-      src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
-      width: 1,
+      src: "/img/kobi/FD1U7915.jpg",
+      width: 1.5,
       height: 1
     },
     {
@@ -30,7 +30,7 @@ export const photos = [
       height: 3
     },
     {
-      src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
+      src: "/img/kobi/0X9A9188.jpg",
       width: 3,
       height: 4
     },
