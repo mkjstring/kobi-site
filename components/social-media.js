@@ -9,29 +9,29 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function SocialFollow() {
   return (
-    <div class="social-container">
-      <h3> PAPA KOBI SOCIAL</h3>
-      <a
-        href="https://www.youtube.com/c/jamesqquick"
-        className="youtube social"
-      >
-        <FontAwesomeIcon icon={faYoutube} size="2x" />
-      </a>
-      <a
-        href="https://www.facebook.com/learnbuildteach/"
-        className="facebook social"
-      >
-        <FontAwesomeIcon icon={faFacebook} size="2x" />
-      </a>
-      <a href="https://www.twitter.com/jamesqquick" className="twitter social">
-        <FontAwesomeIcon icon={faTwitter} size="2x" />
-      </a>
-      <a
-        href="https://www.instagram.com/learnbuildteach"
-        className="instagram social"
-      >
-        <FontAwesomeIcon icon={faInstagram} size="2x" />
-      </a>
+    <div className="social-container">
+      <ul>
+        <li className="facebook">
+          <a href="#">
+            <i className="fa fa-facebook fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li className="twitter">
+          <a href="#">
+            <i className="fa fa-twitter fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li className="instagram">
+          <a href="https://www.instagram.com/kobimathis/">
+            <i className="fa fa-instagram fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li className="whatsapp">
+          <a href="#">
+            <i className="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
     </div>
   );
 }

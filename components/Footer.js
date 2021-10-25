@@ -6,6 +6,12 @@ const Footer = () => {
     <section className="footer section">
       <div className="container">
         <div className="row">
+          <div className="column">
+            <div>
+              <p>email@email.com</p>
+              <h6>+99 1234-5678-9</h6>
+            </div>
+          </div>
           <div className="column" lg={8}>
             <div className="row">
               <div className="column">

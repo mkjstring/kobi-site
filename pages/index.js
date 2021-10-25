@@ -16,16 +16,17 @@ const Index = () => {
           href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap"
           rel="stylesheet"
         />
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossOrigin="anonymous"></link>
       </head>
       <Layout pageTitle="Kobi Childers Photography">
         <main className="main">
           <div className="content">
             <Header className="header" />
             <Carousel className="carousel" />
-            <Gallery className="gallery" />
             <About className="about" />
+            <Gallery className="gallery" />
             <Service className="service" />
-            <Footer></Footer>Í
+            <Footer></Footer>
           </div>
         </main>
       </Layout>
