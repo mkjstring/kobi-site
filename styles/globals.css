@@ -99,12 +99,14 @@ div .column{
 
 .social-container {
   display: flex;
+  margin: auto;
   justify-content: center;
   align-content: center;
   background: var(--main-bg);
   padding: 25px 50px;
   letter-spacing: 6px;
 }
+
 a.social {
   margin: 0 1rem;
   transition: transform 250ms;
@@ -145,30 +147,33 @@ a.instagram {
 }
 
 .social-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 550px;
-  margin: 0;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin: auto;
   padding: 0;
+  box-sizing: border-box;
+}
+
+
+section.social-container{
+  width: 100%;
 }
 
 .social-container  ul {
-  display: flex;
   list-style: none;
 }
 
 
 .social-container ul li {
+  display: ;
   width: 75px;
   height: 75px;
   line-height: 75px;
   margin: 0 10px;
   text-align: center;
   cursor: pointer;
-  border-radius: 50%;
-  border: 5px solid #D8E2DC;
+
   float: left;
   transition: all 0.5s ease;
 }
@@ -186,8 +191,6 @@ to align it properly */
   to icons for glowing effect and use transition property for smooth transition effect. */
 /*facebook*/
 .social-container ul li:hover.facebook {
-  border: 5px solid #3b5998;
-  box-shadow: 0 0 15px #3b5998;
   transition: all 0.5s ease;
 }
 
@@ -199,8 +202,7 @@ to align it properly */
 
 /*twitter*/
 .social-container ul li:hover.twitter {
-  border: 5px solid #00aced;
-  box-shadow: 0 0 15px #00aced;
+
   transition: all 0.5s ease;
 }
 
@@ -212,8 +214,7 @@ to align it properly */
 
 /* instagram */
 .social-container ul li:hover.instagram {
-  border: 5px solid #bc2a8d;
-  box-shadow: 0 0 15px #bc2a8d;
+
   transition: all 0.5s ease;
 }
 
@@ -223,23 +224,9 @@ to align it properly */
   transition: all 0.5s ease;
 }
 
-/* google */
-.social-container ul li:hover.google {
-  border: 5px solid #dd4b39;
-  box-shadow: 0 0 15px #dd4b39;
-  transition: all 0.5s ease;
-}
-
-.social-container ul li:hover .fa-google {
-  color: #dd4b39;
-  text-shadow: 0 0 15px #dd4b39;
-  transition: all 0.5s ease;
-}
 
 /* whatsapp */
 .social-container ul li:hover.whatsapp {
-  border: 5px solid #4dc247;
-  box-shadow: 0 0 15px #4dc247;
   transition: all 0.5s ease;
 }
 
