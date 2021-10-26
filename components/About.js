@@ -1,5 +1,3 @@
-import React from "react";
-
 const About = () => {
   return (
     <section id="about">
@@ -19,7 +17,7 @@ const About = () => {
           </div>
           <div>
             <div className="column">
-              <h2>Don't you ever doubt me.</h2>
+              <h2>Dont you ever doubt me.</h2>
             </div>
             <div>
               <div>
@@ -32,7 +30,7 @@ const About = () => {
                 <div className="column">
                   <h6 className="vision-header">Our Vision:</h6>
                   <p className="descriptive-text">
-                    Lorem Ipsum has been the industry's standard dummy text ever
+                    Lorem Ipsum has been the industrys standard dummy text ever
                     since the 1500s, when an unknown printer took a galley of
                     type
                   </p>
