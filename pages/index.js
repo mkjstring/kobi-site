@@ -6,6 +6,9 @@ import About from "../components/About";
 import Footer from "../components/Footer";
 import Carousel from "../components/Carousel";
 import SocialFollow from "../components/social-media";
+import Lightbox from "react-image-lightbox";
+import React from "react";
+import FadeInSection from "../components/FadeInSection";
 
 const Index = () => {
   return (
@@ -29,12 +32,20 @@ const Index = () => {
           <div className="content">
             <Header className="header" />
             <Carousel className="carousel" />
-            <About className="about" />
-            <Gallery className="gallery" />
-            <Service className="service" />
-            <Footer></Footer>
-            <div className='test-social-media'>
-            <SocialFollow />
+            <FadeInSection>
+              <About className="about" />
+            </FadeInSection>
+            <FadeInSection>
+              <Gallery className="gallery" />
+            </FadeInSection>
+            <FadeInSection>
+              <Service className="service" />
+            </FadeInSection>
+            <FadeInSection>
+              <Footer />
+            </FadeInSection>
+            <div className="test-social-media">
+              <SocialFollow />
             </div>
           </div>
         </main>

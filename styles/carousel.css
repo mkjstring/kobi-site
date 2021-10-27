@@ -8,10 +8,7 @@
 .protect-image{
     pointer-events: none;
     text-decoration: none;
-
 }
-
-.carousel-container
 
 .sr-only{
     display: none;

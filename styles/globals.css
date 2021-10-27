@@ -29,7 +29,8 @@ a {
   box-sizing: border-box;
 }
 
-.section {
+section {
+  display: flex;
   padding-top: 100px;
   padding-bottom: 100px;
   position: relative;
@@ -92,6 +93,8 @@ div .column{
 }
 
 #about{
+  margin:auto;
+  display: inline-flex;
   padding: 25px 0px;
   font-family: 'Archivo Narrow';
   letter-spacing: 2px;
@@ -138,9 +141,6 @@ a.instagram {
   margin: 10px;
 }
 
-.header .navbar{
-  height: 60px;
-}
 
 .navbar-dark .navbar-nav .nav-link{
   color: antiquewhite;
@@ -166,7 +166,6 @@ section.social-container{
 
 
 .social-container ul li {
-  display: ;
   width: 75px;
   height: 75px;
   line-height: 75px;
@@ -181,7 +180,7 @@ section.social-container{
 /* Style the icons by setting its color and margin-top value to 20px 
 to align it properly */
 .social-container ul li .fa {
-  color: #D8E2DC;
+  color: antiquewhite;
   margin-top: 18px;
   margin-left: 7px;
   transition: all 0.5s ease;
@@ -262,4 +261,52 @@ to align it properly */
   .social-container ul li.google{
       margin-left: 15px;
   }
+}
+
+.fade-in-section {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+.fade-in-section > #about {
+  opacity: 0;
+  transform: translateX(-20vh);
+  visibility: hidden;
+  transition: opacity 1s ease-out, transform 1s;
+  will-change: opacity, visibility;
+}
+.fade-in-section.is-visible > #about{
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+.fade-in-section.is-visible > #about{
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+.fade-in-section > .react-photo-gallery--gallery > div > img {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+
+.fade-in-section.is-visible > .react-photo-gallery--gallery > div > img{
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+.navbar-toggler-icon {
+  color: antiquewhite;
 }
