@@ -8,5 +8,6 @@ const NewGallery = () => {
   return (
     <Gallery className="gallery" photos={photos} direction={"column"} />
   )
+  /*checkout*/
 }
 export default NewGallery;
