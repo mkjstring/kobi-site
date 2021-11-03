@@ -29,15 +29,16 @@ a {
   box-sizing: border-box;
 }
 
+.main{
+  background: var(--main-bg);
+}
+
+/* review*/
 section {
   display: flex;
   padding-top: 100px;
   padding-bottom: 100px;
   position: relative;
-}
-
-.main{
-  background: var(--main-bg);
 }
 
 .sr-only{
@@ -57,6 +58,8 @@ section {
   padding: 0px;
   margin: 0 auto;
 }
+
+
 
 div .column{
   padding: 0px;
@@ -307,6 +310,14 @@ to align it properly */
   visibility: visible;
 }
 
+.fade-in-section.is#test
+
 .navbar-toggler-icon {
   color: antiquewhite;
+}
+
+#gallery {
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: repeat(auto-fill,minmax,1fr);
 }

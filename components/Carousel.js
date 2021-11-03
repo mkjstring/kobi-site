@@ -1,5 +1,6 @@
 import React from "react";
 import { UncontrolledCarousel } from "reactstrap";
+
 const items = [
   {
     src: "img/kobi/FWDGUY.jpg",

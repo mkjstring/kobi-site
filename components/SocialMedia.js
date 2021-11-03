@@ -1,13 +1,7 @@
 import React from "react";
-import {
-  faYoutube,
-  faFacebook,
-  faTwitter,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default function SocialFollow() {
+
+const SocialFollow = () => {
   return (
     <section className="social-container">
       <div>
@@ -37,3 +31,5 @@ export default function SocialFollow() {
     </section>
   );
 }
+
+export default SocialFollow;
