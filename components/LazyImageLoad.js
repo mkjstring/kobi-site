@@ -1,10 +1,9 @@
 import React from "react";
 
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import { Fade } from "reactstrap";
 import FadeInSection from "./FadeInSection";
 
-import { photos } from "./Photos";
+import { photos } from "./Photos.js";
 
 const pics = photos;
 
@@ -13,7 +12,7 @@ const LazyImageLoad = (pics) => (
     <div className="lazy-load">
       {photos.map((photo) => (
        // eslint-disable-next-line react/jsx-key
-       <FadeInSection className='gallery-item'>
+       <FadeInSection className='gallery-item' key={photo.key}>
         <LazyLoadImage 
           className="load-daddy"
           key={photo.key}
