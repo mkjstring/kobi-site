@@ -327,6 +327,7 @@ to align it properly */
     -moz-column-gap:      0px;
     column-count:         4;
     column-gap:           10px;  
+    margin: 15px;
 }
 
 img.load-daddy {

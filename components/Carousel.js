@@ -23,6 +23,13 @@ const items = [
     header: "",
     key: "3",
   },
+  {
+    src: "img/kobi/_F0A5112.jpg",
+    altText: "Slide 3",
+    caption: "",
+    header: "",
+    key: "3",
+  }
 ];
 
 const Carousel = () => (

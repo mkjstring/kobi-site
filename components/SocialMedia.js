@@ -21,11 +21,7 @@ const SocialMedia = () => {
               <i className="fa fa-instagram fa-2x" aria-hidden="true"></i>
             </a>
           </li>
-          <li className="whatsapp">
-            <a href="#">
-              <i className="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
-            </a>
-          </li>
+       
         </ul>
       </div>
     </section>

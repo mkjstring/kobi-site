@@ -5,7 +5,8 @@ export const photos = [
       height: 2,
       key: 1,
       width2: 466,
-      height2: 310.7
+      height2: 310.7,
+      alt: "Live Performance of <BAND NAME HERE>. Warm color."
     },
     {
       src: "/img/kobi/0X9A9184.jpg",
@@ -13,7 +14,8 @@ export const photos = [
       height: 4,
       key: 2,
       width2: 466,
-      height2: 621.3
+      height2: 621.3,
+      alt: ""
     },
     {
       src: "/img/kobi/7H2A8660 2.JPG",
@@ -21,7 +23,8 @@ export const photos = [
       height: 2,
       key: 3,
       width2: 466,
-      height2: 310.7
+      height2: 310.7,
+      alt: ""
     },
     {
       src: "/img/kobi/_F0A5112.jpg",
@@ -29,7 +32,8 @@ export const photos = [
       height: 4,
       key: 4,
       width2: 466,
-      height2: 621.3
+      height2: 621.3,
+      alt: ""
     },
     {
       src: "/img/kobi/7H2A1896.JPG",
@@ -37,7 +41,8 @@ export const photos = [
       height: 4,
       key: 5,
       width2: 466,
-      height2: 621.3
+      height2: 621.3,
+      alt: ""
     },
 
     {
@@ -46,7 +51,8 @@ export const photos = [
       height: 4,
       key: 6,
       width2: 466,
-      height2: 621.3
+      height2: 621.3,
+      alt: ""
     },
     {
       src: "/img/kobi/1S6A3166.jpg",
@@ -54,7 +60,8 @@ export const photos = [
       height: 4,
       key: 7,
       width2: 466,
-      height2: 621.3
+      height2: 621.3,
+      alt: ""
     },
     {
       src: "/img/kobi/FD1U8022.jpg",//source.unsplash.com/I1ASdgphUH4/800x599,
@@ -62,7 +69,8 @@ export const photos = [
       height: 4,
       key: 8,
       width2: 466,
-      height2: 621.3
+      height2: 621.3,
+      alt:  ""
     },
     {
       src: "/img/kobi/FD1U6972-3.jpg",
@@ -70,7 +78,8 @@ export const photos = [
       height: 4,
       key: 9,
       width2: 466,
-      height2: 621.3
+      height2: 621.3,
+      alt: ""
     },
     {
       src: "/img/kobi/0X9A8563.jpg",//source.unsplash.com/I1ASdgphUH4/800x599,
@@ -78,7 +87,8 @@ export const photos = [
       height: 4,
       key: 10,
       width2: 466,
-      height2: 621.3
+      height2: 621.3,
+      alt: ""
     },
     {
       src: "/img/kobi/0X9A0027.JPG",
@@ -86,7 +96,8 @@ export const photos = [
       height: 4,
       key: 11,
       width2: 466,
-      height2: 621.3
+      height2: 621.3,
+      alt: "Black and white portrait"
     },
     {
       src: "/img/kobi/FD1U7367.jpg",
@@ -94,7 +105,8 @@ export const photos = [
       height: 2,
       key: 12,
       width2: 466,
-      height2: 310.7
+      height2: 310.7,
+      alt: ""
     },
     {
       src: "/img/kobi/FWDGUY.jpg",
@@ -102,7 +114,8 @@ export const photos = [
       height: 2,
       key: 13,
       width2: 466,
-      height2: 310.7
+      height2: 310.7,
+      alt: ""
     },
     {
       src: "/img/kobi/FD1U7554.jpg",
@@ -110,7 +123,8 @@ export const photos = [
       height: 3,
       key: 14,
       width2: 466,
-      height2: 310.7
+      height2: 310.7,
+      alt: ""
     }
   ];
   

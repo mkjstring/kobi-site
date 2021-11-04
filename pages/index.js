@@ -23,7 +23,9 @@ const Index = () => {
         <main className="main">
           <div className="content">
             <Header className="header" />
+            <FadeInSection>
             <Carousel className="carousel" />
+            </FadeInSection>
             <FadeInSection>
               <About className="about" />
             </FadeInSection>
