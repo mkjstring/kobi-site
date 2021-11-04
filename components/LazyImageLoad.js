@@ -12,10 +12,11 @@ const LazyImageLoad = (pics) => (
   <div>
     <div className="lazy-load">
       {photos.map((photo) => (
+       // eslint-disable-next-line react/jsx-key
        <FadeInSection className='gallery-item'>
         <LazyLoadImage 
           className="load-daddy"
-          key={photo.id}
+          key={photo.key}
           alt={photo.alt}
           height={photo.height2}
           src={photo.src} // use normal <img> attributes as props

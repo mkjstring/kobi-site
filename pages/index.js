@@ -18,7 +18,6 @@ const Index = () => {
         <title> Kobi Childers Photography</title>
         <meta name="description" content="Check out photos by Kobi Childers"/>
         <meta property="og:title" content="Kobi Childers Photography"/>
-        />
       </Head>
       <Layout pageTitle="Kobi Childers Photography">
         <main className="main">
