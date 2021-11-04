@@ -333,7 +333,7 @@ img.load-daddy {
   /* Just in case there are inline attributes */
   width: 100% !important;
   height: auto !important;
-  margin-bottom: 10px ;
+  margin-bottom: 15px !important;
 }
 
 @media (max-width: 1200px) {

@@ -1,6 +1,5 @@
 import React from "react";
-
-import { LazyLoadImage } from "react-lazy-load-image-component";
+import Image from 'next/image'
 import FadeInSection from "./FadeInSection";
 
 import { photos } from "./Photos.js";
@@ -13,7 +12,7 @@ const LazyImageLoad = (pics) => (
       {photos.map((photo) => (
        // eslint-disable-next-line react/jsx-key
        <FadeInSection className='gallery-item' key={photo.key}>
-        <LazyLoadImage 
+        <Image
           className="load-daddy"
           key={photo.key}
           alt={photo.alt}
