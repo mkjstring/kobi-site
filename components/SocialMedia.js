@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const SocialFollow = () => {
+const SocialMedia = () => {
   return (
     <section className="social-container">
       <div>
@@ -32,4 +32,4 @@ const SocialFollow = () => {
   );
 }
 
-export default SocialFollow;
+export default SocialMedia;

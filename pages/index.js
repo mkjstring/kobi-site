@@ -9,6 +9,7 @@ import Footer from "../components/Footer";
 import Carousel from "../components/Carousel";
 import FadeInSection from "../components/FadeInSection";
 import SocialMedia from "../components/SocialMedia";
+import LazyImageLoad from "../components/LazyImageLoad";
 
 const Index = () => {
   return (
@@ -27,9 +28,7 @@ const Index = () => {
             <FadeInSection>
               <About className="about" />
             </FadeInSection>
-            <FadeInSection>
-              <Gallery className="gallery" />
-            </FadeInSection>
+            <LazyImageLoad/>
             <FadeInSection>
               <Service className="service" />
             </FadeInSection>
