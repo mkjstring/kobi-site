@@ -1,5 +1,7 @@
 import React from "react";
 import { UncontrolledCarousel } from "reactstrap";
+import {photos, getImagesForCarouselBasedOnScreenSize} from './Photos'
+import useWindowSize from './WindowDimensions'
 
 const items = [
   {
@@ -28,18 +30,27 @@ const items = [
     altText: "Slide 3",
     caption: "",
     header: "",
-    key: "3",
+    key: "4",
   }
 ];
 
-const Carousel = () => (
+
+const Carousel = () => {
+  const { height, width } = useWindowSize();
+
+  const orientation = width < 670 ? 'portrait' : 'landscape'
+  
+  const testPhoto = getImagesForCarouselBasedOnScreenSize(photos, orientation);
+
+  return (
   <div className='carousel-container'>
+    width: {width} ~ height: {height};
       <div className="row">
         <div className="column">
-          <UncontrolledCarousel className="protect-image" items={items} indicators={false}/>
+          <UncontrolledCarousel className="protect-image" items={testPhoto} indicators={false}/>
         </div>
       </div>
   </div>
-);
+)};
 
 export default Carousel;

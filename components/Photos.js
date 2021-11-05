@@ -1,3 +1,6 @@
+const LANDSCAPE = 'landscape';
+const PORTRAIT = 'portrait'
+
 export const photos = [
     {
       src: "/img/kobi/FD1U7915.jpg",
@@ -6,7 +9,9 @@ export const photos = [
       key: 1,
       width2: 466,
       height2: 310.7,
-      alt: "Live Performance of <BAND NAME HERE>. Warm color."
+      alt: "Warmly colored photo of <BAND NAME HERE> performing live",
+      useInHeroCarousel: false,
+      orientation: LANDSCAPE
     },
     {
       src: "/img/kobi/0X9A9184.jpg",
@@ -15,7 +20,9 @@ export const photos = [
       key: 2,
       width2: 466,
       height2: 621.3,
-      alt: ""
+      alt: "Birds eye view, violet-hued photograph of brightly colored buildings by a forested river",
+      useInHeroCarousel: true,
+      orientation: PORTRAIT
     },
     {
       src: "/img/kobi/7H2A8660 2.JPG",
@@ -24,7 +31,9 @@ export const photos = [
       key: 3,
       width2: 466,
       height2: 310.7,
-      alt: ""
+      alt: "Live band performance. Performer laying on the ground and causing sparks with a saw",
+      useInHeroCarousel: false,
+      orientation: LANDSCAPE
     },
     {
       src: "/img/kobi/_F0A5112.jpg",
@@ -33,7 +42,9 @@ export const photos = [
       key: 4,
       width2: 466,
       height2: 621.3,
-      alt: ""
+      alt: "Black and white photograph of snowcapped woods surrounding a waterfall and river",
+      useInHeroCarousel: true,
+      orientation: PORTRAIT
     },
     {
       src: "/img/kobi/7H2A1896.JPG",
@@ -42,7 +53,9 @@ export const photos = [
       key: 5,
       width2: 466,
       height2: 621.3,
-      alt: ""
+      alt: "Black and white photograph of a lone, winter dormant tree against an overcast sky ",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT
     },
 
     {
@@ -52,7 +65,9 @@ export const photos = [
       key: 6,
       width2: 466,
       height2: 621.3,
-      alt: ""
+      alt: "Birds eye view photograph of a beach with a small, lone figure walking along the coast. ",
+      useInHeroCarousel: "",
+      orientation: PORTRAIT
     },
     {
       src: "/img/kobi/1S6A3166.jpg",
@@ -61,7 +76,9 @@ export const photos = [
       key: 7,
       width2: 466,
       height2: 621.3,
-      alt: ""
+      alt: "Black and white portrait",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT
     },
     {
       src: "/img/kobi/FD1U8022.jpg",//source.unsplash.com/I1ASdgphUH4/800x599,
@@ -70,7 +87,9 @@ export const photos = [
       key: 8,
       width2: 466,
       height2: 621.3,
-      alt:  ""
+      alt:  "Live performance of <BAND NAME HERE> with smoke and purple hue",
+      useInHeroCarousel: true,
+      orientation: PORTRAIT
     },
     {
       src: "/img/kobi/FD1U6972-3.jpg",
@@ -79,7 +98,9 @@ export const photos = [
       key: 9,
       width2: 466,
       height2: 621.3,
-      alt: ""
+      alt: "Color photo of man walking in downtown Huntsville, AL across wet pavement crosswalk",
+      useInHeroCarousel: true,
+      orientation: PORTRAIT
     },
     {
       src: "/img/kobi/0X9A8563.jpg",//source.unsplash.com/I1ASdgphUH4/800x599,
@@ -88,7 +109,9 @@ export const photos = [
       key: 10,
       width2: 466,
       height2: 621.3,
-      alt: ""
+      alt: "Black and white portrait",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT
     },
     {
       src: "/img/kobi/0X9A0027.JPG",
@@ -97,7 +120,9 @@ export const photos = [
       key: 11,
       width2: 466,
       height2: 621.3,
-      alt: "Black and white portrait"
+      alt: "Black and white portrait",
+      useInHeroCarousel: "",
+      orientation: PORTRAIT
     },
     {
       src: "/img/kobi/FD1U7367.jpg",
@@ -106,7 +131,9 @@ export const photos = [
       key: 12,
       width2: 466,
       height2: 310.7,
-      alt: ""
+      alt: "Live performance of Comeback Kid from FurnaceFest 2021 in Birmingham, AL",
+      useInHeroCarousel: true,
+      orientation: LANDSCAPE
     },
     {
       src: "/img/kobi/FWDGUY.jpg",
@@ -115,7 +142,9 @@ export const photos = [
       key: 13,
       width2: 466,
       height2: 310.7,
-      alt: ""
+      alt: "Photograph of a sharply dressed man with cheap sunglasses doing a stoppie (front wheelie) on a bicycle in front of a shop in downtown Huntsville, AL ",
+      useInHeroCarousel: true,
+      orientation: LANDSCAPE
     },
     {
       src: "/img/kobi/FD1U7554.jpg",
@@ -124,7 +153,24 @@ export const photos = [
       key: 14,
       width2: 466,
       height2: 310.7,
-      alt: ""
+      alt: "Live performance of <BAND NAME HERE> from FurnaceFest 2021 in Birmingham, AL",
+      useInHeroCarousel: false,
+      orientation: LANDSCAPE
+    },
+    {
+      src: "/img/kobi/0X9A8593.jpg",
+      width: 5,
+      height: 3,
+      key: 15,
+      width2: 466,
+      height2: 310.7,
+      alt: "Black and white photo of public demonstration in downtown Huntsville, AL",
+      useInHeroCarousel: true,
+      orientation: LANDSCAPE
     }
   ];
   
+
+export const getImagesForCarouselBasedOnScreenSize = (photos, screenOrientation) => {
+  return photos.filter(photo => photo.orientation == screenOrientation && photo.useInHeroCarousel == true)
+}
