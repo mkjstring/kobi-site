@@ -44,7 +44,6 @@ const Carousel = () => {
 
   return (
   <div className='carousel-container'>
-    width: {width} ~ height: {height};
       <div className="row">
         <div className="column">
           <UncontrolledCarousel className="protect-image" items={testPhoto} indicators={false}/>
