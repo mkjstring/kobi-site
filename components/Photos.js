@@ -11,7 +11,8 @@ export const photos = [
       height2: 310.7,
       alt: "Warmly colored photo of <BAND NAME HERE> performing live",
       useInHeroCarousel: false,
-      orientation: LANDSCAPE
+      orientation: LANDSCAPE,
+      homepage: true
     },
     {
       src: "/img/kobi/0X9A9184.jpg",
@@ -22,7 +23,8 @@ export const photos = [
       height2: 621.3,
       alt: "Birds eye view, violet-hued photograph of brightly colored buildings by a forested river",
       useInHeroCarousel: true,
-      orientation: PORTRAIT
+      orientation: PORTRAIT,
+      homepage: true
     },
     {
       src: "/img/kobi/7H2A8660 2.JPG",
@@ -33,7 +35,8 @@ export const photos = [
       height2: 310.7,
       alt: "Live band performance. Performer laying on the ground and causing sparks with a saw",
       useInHeroCarousel: false,
-      orientation: LANDSCAPE
+      orientation: LANDSCAPE,
+      homepage: true
     },
     {
       src: "/img/kobi/_F0A5112.jpg",
@@ -44,7 +47,8 @@ export const photos = [
       height2: 621.3,
       alt: "Black and white photograph of snowcapped woods surrounding a waterfall and river",
       useInHeroCarousel: true,
-      orientation: PORTRAIT
+      orientation: PORTRAIT,
+      homepage: true
     },
     {
       src: "/img/kobi/7H2A1896.JPG",
@@ -55,7 +59,8 @@ export const photos = [
       height2: 621.3,
       alt: "Black and white photograph of a lone, winter dormant tree against an overcast sky ",
       useInHeroCarousel: false,
-      orientation: PORTRAIT
+      orientation: PORTRAIT,
+      homepage: true
     },
 
     {
@@ -67,7 +72,8 @@ export const photos = [
       height2: 621.3,
       alt: "Birds eye view photograph of a beach with a small, lone figure walking along the coast. ",
       useInHeroCarousel: "",
-      orientation: PORTRAIT
+      orientation: PORTRAIT,
+      homepage: true
     },
     {
       src: "/img/kobi/1S6A3166.jpg",
@@ -78,7 +84,8 @@ export const photos = [
       height2: 621.3,
       alt: "Black and white portrait",
       useInHeroCarousel: false,
-      orientation: PORTRAIT
+      orientation: PORTRAIT,
+      homepage: true
     },
     {
       src: "/img/kobi/FD1U8022.jpg",//source.unsplash.com/I1ASdgphUH4/800x599,
@@ -89,7 +96,8 @@ export const photos = [
       height2: 621.3,
       alt:  "Live performance of <BAND NAME HERE> with smoke and purple hue",
       useInHeroCarousel: true,
-      orientation: PORTRAIT
+      orientation: PORTRAIT,
+      homepage: true
     },
     {
       src: "/img/kobi/FD1U6972-3.jpg",
@@ -100,7 +108,8 @@ export const photos = [
       height2: 621.3,
       alt: "Color photo of man walking in downtown Huntsville, AL across wet pavement crosswalk",
       useInHeroCarousel: true,
-      orientation: PORTRAIT
+      orientation: PORTRAIT,
+      homepage: true
     },
     {
       src: "/img/kobi/0X9A8563.jpg",//source.unsplash.com/I1ASdgphUH4/800x599,
@@ -111,7 +120,8 @@ export const photos = [
       height2: 621.3,
       alt: "Black and white portrait",
       useInHeroCarousel: false,
-      orientation: PORTRAIT
+      orientation: PORTRAIT,
+      homepage: true
     },
     {
       src: "/img/kobi/0X9A0027.JPG",
@@ -122,7 +132,8 @@ export const photos = [
       height2: 621.3,
       alt: "Black and white portrait",
       useInHeroCarousel: "",
-      orientation: PORTRAIT
+      orientation: PORTRAIT,
+      homepage: true
     },
     {
       src: "/img/kobi/FD1U7367.jpg",
@@ -133,7 +144,8 @@ export const photos = [
       height2: 310.7,
       alt: "Live performance of Comeback Kid from FurnaceFest 2021 in Birmingham, AL",
       useInHeroCarousel: true,
-      orientation: LANDSCAPE
+      orientation: LANDSCAPE,
+      homepage: true
     },
     {
       src: "/img/kobi/FWDGUY.jpg",
@@ -144,7 +156,8 @@ export const photos = [
       height2: 310.7,
       alt: "Photograph of a sharply dressed man with cheap sunglasses doing a stoppie (front wheelie) on a bicycle in front of a shop in downtown Huntsville, AL ",
       useInHeroCarousel: true,
-      orientation: LANDSCAPE
+      orientation: LANDSCAPE,
+      homepage: true
     },
     {
       src: "/img/kobi/FD1U7554.jpg",
@@ -155,7 +168,8 @@ export const photos = [
       height2: 310.7,
       alt: "Live performance of <BAND NAME HERE> from FurnaceFest 2021 in Birmingham, AL",
       useInHeroCarousel: false,
-      orientation: LANDSCAPE
+      orientation: LANDSCAPE,
+      homepage: true
     },
     {
       src: "/img/kobi/0X9A8593.jpg",
@@ -166,7 +180,8 @@ export const photos = [
       height2: 310.7,
       alt: "Black and white photo of public demonstration in downtown Huntsville, AL",
       useInHeroCarousel: true,
-      orientation: LANDSCAPE
+      orientation: LANDSCAPE,
+      homepage: true
     }
   ];
   

@@ -1,20 +1,30 @@
 import React from "react";
-import Gallery from "react-photo-gallery";
-import { photos } from "./Photos";
+import Image from "next/image";
+import FadeInSection from "./FadeInSection";
 
-/* popout the browser and maximize to see more columns! -> */
+import { photos } from "./Photos.js";
 
-const NewGallery = () => {
-  return (
-    <section id="gallery">
-      <Gallery
-        className="gallery"
-        photos={photos}
-        direction={"column"}
-        margin={"5"}
-      />
-    </section>
-  );
-  /*checkout*/
-};
-export default NewGallery;
+const pics = photos;
+
+const LazyImageLoad = (pics) => (
+  <div>
+    <div className="lazy-load">
+      {photos.map((photo) => (
+        // eslint-disable-next-line react/jsx-key
+        <FadeInSection className="gallery-item" key={photo.key}>
+          <Image
+            loading="eager"
+            className="load-daddy"
+            key={photo.key}
+            alt={photo.alt}
+            height={photo.height2}
+            src={photo.src} // use normal <img> attributes as props
+            width={photo.width2}
+          />
+        </FadeInSection>
+      ))}
+    </div>
+  </div>
+);
+
+export default LazyImageLoad;
