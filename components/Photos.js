@@ -4,8 +4,8 @@ const PORTRAIT = 'portrait'
 export const photos = [
     {
       src: "/img/kobi/FD1U7915.jpg",
-      width: 3,
-      height: 2,
+      width:  929.9,
+      height: 620,
       key: 1,
       width2: 466,
       height2: 310.7,
@@ -28,8 +28,8 @@ export const photos = [
     },
     {
       src: "/img/kobi/7H2A8660 2.JPG",
-      width: 3,
-      height: 2,
+      width:  929.9,
+      height: 620,
       key: 3,
       width2: 466,
       height2: 310.7,
@@ -137,8 +137,8 @@ export const photos = [
     },
     {
       src: "/img/kobi/FD1U7367.jpg",
-      width: 3,
-      height: 2,
+      width:  929.9,
+      height: 620,
       key: 12,
       width2: 466,
       height2: 310.7,
@@ -149,8 +149,8 @@ export const photos = [
     },
     {
       src: "/img/kobi/FWDGUY.jpg",
-      width: 3,
-      height: 2,
+      width:  929.9,
+      height: 620,
       key: 13,
       width2: 466,
       height2: 310.7,
@@ -161,8 +161,8 @@ export const photos = [
     },
     {
       src: "/img/kobi/FD1U7554.jpg",
-      width: 5,
-      height: 3,
+      width:  929.9,
+      height: 620,
       key: 14,
       width2: 466,
       height2: 310.7,
@@ -173,8 +173,8 @@ export const photos = [
     },
     {
       src: "/img/kobi/0X9A8593.jpg",
-      width: 5,
-      height: 3,
+      width:  929.9,
+      height: 620,
       key: 15,
       width2: 466,
       height2: 310.7,

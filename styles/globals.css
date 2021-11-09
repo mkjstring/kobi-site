@@ -317,7 +317,7 @@ to align it properly */
 }
 
 
-.lazy-load{
+.eager-load{
     /* Prevent vertical gaps */
     line-height: 0;
    background-color: black;
@@ -328,6 +328,7 @@ to align it properly */
     column-count:         4;
     column-gap:           10px;  
     margin: 15px;
+    cursor: pointer;
 }
 
 img.load-daddy {
@@ -338,30 +339,57 @@ img.load-daddy {
 }
 
 @media (max-width: 1200px) {
-.lazy-load {
+.eager-load {
   -moz-column-count:    4;
   -webkit-column-count: 4;
   column-count:         4;
   }
 }
 @media (max-width: 1000px) {
-.lazy-load {
+.eager-load {
   -moz-column-count:    3;
   -webkit-column-count: 3;
   column-count:         3;
   }
 }
 @media (max-width: 800px) {
-  .lazy-load{
+  .eager-load{
   -moz-column-count:    2;
   -webkit-column-count: 2;
   column-count:         2;
   }
 }
 @media (max-width: 400px) {
-  .lazy-load{
+  .eager-load{
   -moz-column-count:    2;
   -webkit-column-count: 2;
   column-count:         2;
   }
+}
+
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-arrow{
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 2.25rem;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow{
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 2.25rem;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
 }

@@ -1,14 +1,26 @@
-import React from "react";
+import React, {useState} from "react";
 import Image from "next/image";
 import FadeInSection from "./FadeInSection";
+import SliderModal, { openSliderModal } from "./SliderModal";
+import {photos} from './Photos'
 
-import { photos } from "./Photos.js";
 
-const pics = photos;
+const Gallery = ({photos}) => {
+  const [photoIndex, setPhotoIndex] = useState(0);
+  const [showModal, setShowModal] = useState (false);
 
-const LazyImageLoad = (pics) => (
-  <div>
-    <div className="lazy-load">
+  openSliderModal = (key) => {
+    alert("test")
+    console.log(e,key) 
+    setShowModal(!showModal);
+    setPhotoIndex(key);
+  }
+  
+
+
+  return (
+  <div className='eager-load' id='gallery'>
+      <SliderModal photos = {photos} index = {photoIndex} showModal = {showModal} setShowModal = {setShowModal}/>
       {photos.map((photo) => (
         // eslint-disable-next-line react/jsx-key
         <FadeInSection className="gallery-item" key={photo.key}>
@@ -20,11 +32,12 @@ const LazyImageLoad = (pics) => (
             height={photo.height2}
             src={photo.src} // use normal <img> attributes as props
             width={photo.width2}
+            onClick={()=>{openSliderModal(photo.key)}}
           />
         </FadeInSection>
       ))}
     </div>
-  </div>
-);
+  )
+};
 
-export default LazyImageLoad;
+export default Gallery;
