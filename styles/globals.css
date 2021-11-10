@@ -45,33 +45,6 @@ section {
   display: none;
 }
 
-.wrapper{
-  max-width: 100%;
-  display: grid;
-  grid-template-areas:
-    "header"
-    "nav"
-    "content"
-    "carousel"
-    "ad"
-    "footer";
-  padding: 0px;
-  margin: 0 auto;
-}
-
-
-
-div .column{
-  padding: 0px;
-  width: 100%;
-  max-width: 100%;
-}
-
-.row{
-  max-width: 100%;
-  margin: 0%;
-}
-
 .carousel {
   max-height: 100vh;
   height: 100%;
@@ -310,8 +283,6 @@ to align it properly */
   visibility: visible;
 }
 
-.fade-in-section.is#test
-
 .navbar-toggler-icon {
   color: antiquewhite;
 }
@@ -331,11 +302,11 @@ to align it properly */
     cursor: pointer;
 }
 
-img.load-daddy {
+.load-daddy {
   /* Just in case there are inline attributes */
-  width: 100% !important;
-  height: auto !important;
-  margin-bottom: 15px !important;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
 }
 
 @media (max-width: 1200px) {
@@ -392,4 +363,19 @@ img.load-daddy {
   z-index: 10;
   cursor: pointer;
   user-select: none;
+}
+
+.image{
+  margin-bottom: 10px;
+}
+
+.image .fade-in-section div.load-daddy{
+  
+  transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+
+.image .fade-in-section:hover div .load-daddy{
+  transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  transform: scale(1.1);
+  transform-origin: center;
 }

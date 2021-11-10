@@ -1,6 +1,6 @@
 import React from "react";
 
-function FadeInSection(props) {
+const FadeInSection = (props) => {
     const [isVisible, setVisible] = React.useState(false);
     const domRef = React.useRef();
     React.useEffect(() => {

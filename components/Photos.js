@@ -157,7 +157,7 @@ export const photos = [
       alt: "Photograph of a sharply dressed man with cheap sunglasses doing a stoppie (front wheelie) on a bicycle in front of a shop in downtown Huntsville, AL ",
       useInHeroCarousel: true,
       orientation: LANDSCAPE,
-      homepage: true
+      homepage: false
     },
     {
       src: "/img/kobi/FD1U7554.jpg",
@@ -181,7 +181,7 @@ export const photos = [
       alt: "Black and white photo of public demonstration in downtown Huntsville, AL",
       useInHeroCarousel: true,
       orientation: LANDSCAPE,
-      homepage: true
+      homepage: false
     }
   ];
   

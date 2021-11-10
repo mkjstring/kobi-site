@@ -21,7 +21,7 @@ const ImageSlider = ({ photos }, index) => {
 
   return (
     <section className="slider">
-      <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}/>
+      <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
       <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
       {photos.map((photo, index) => {
         return (
@@ -29,17 +29,22 @@ const ImageSlider = ({ photos }, index) => {
             className={index === current ? "slide active" : "slide"}
             key={index}
           >
-              { index === current && (
-                    <Image
-                    loading="eager"
-                    key={photo.key}
-                    alt={photo.alt}
-                    height={photo.orientation === 'landscape' ?  photo.height : photo.height2}
-                    width={photo.orientation === 'landscape' ? photo.width : photo.width2}
-                    src={photo.src}
-                  />
-              )}
-    
+            {index === current && (
+              <Image
+                loading="eager"
+                key={photo.key}
+                alt={photo.alt}
+                height={
+                  photo.orientation === "landscape"
+                    ? photo.height
+                    : photo.height2
+                }
+                width={
+                  photo.orientation === "landscape" ? photo.width : photo.width2
+                }
+                src={photo.src}
+              />
+            )}
           </div>
         );
       })}
