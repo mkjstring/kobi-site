@@ -45,6 +45,19 @@ section {
   display: none;
 }
 
+
+
+div .column{
+  padding: 0px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.row{
+  max-width: 100%;
+  margin: 0%;
+}
+
 .carousel {
   max-height: 100vh;
   height: 100%;
@@ -283,6 +296,8 @@ to align it properly */
   visibility: visible;
 }
 
+.fade-in-section.is#test
+
 .navbar-toggler-icon {
   color: antiquewhite;
 }
@@ -293,11 +308,11 @@ to align it properly */
     line-height: 0;
    background-color: black;
     -webkit-column-count: 4;
-    -webkit-column-gap:   10px;
+    -webkit-column-gap:   7px;
     -moz-column-count:    4;
     -moz-column-gap:      0px;
     column-count:         4;
-    column-gap:           10px;  
+    column-gap:           7px;  
     margin: 15px;
     cursor: pointer;
 }
@@ -366,7 +381,7 @@ to align it properly */
 }
 
 .image{
-  margin-bottom: 10px;
+  margin:5px 0px;
 }
 
 .image .fade-in-section div.load-daddy{
