@@ -10,6 +10,7 @@ import FadeInSection from "../components/FadeInSection";
 import SocialMedia from "../components/SocialMedia";
 import ImageSlider from "../components/ImageSlider";
 import { photos } from "../components/Photos";
+import LogoAnimation from "../components/LogoAnimation";
 
 const Index = () => {
   return (
@@ -22,6 +23,7 @@ const Index = () => {
       <Layout pageTitle="Kobi Childers Photography">
         <main className="main">
           <div className="content">
+          <LogoAnimation/>
             <Header className="header" />
             <FadeInSection>
               <Carousel className="carousel" />
