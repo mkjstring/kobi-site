@@ -1,15 +1,24 @@
 import React, { useState } from "react";
 import SliderModal, { openSliderModal } from "./SliderModal";
 import ImageComponent from "./ImageComponent";
+import Lightbox from "react-image-lightbox";
+import "react-image-lightbox/style.css";
+import { light } from "@material-ui/core/styles/createPalette";
+import { getListOfImageSources } from "./Photos";
 
 const Gallery = ({ photos }) => {
-  const [photoIndex, setPhotoIndex] = useState(0);
-  const [showModal, setShowModal] = useState(false);
+  const [lightboxState, setLightboxState] = useState({
+    photoIndex: 0,
+    isOpen: false,
+  });
 
-  const openSliderModal = (e, key) => {
-    alert(key);
-    setShowModal(!showModal);
-    setPhotoIndex(key);
+  const { photoIndex, isOpen } = lightboxState;
+
+  const photoSrc = getListOfImageSources(photos);
+
+  const openSliderModal = (key) => {
+    setLightboxState({ photoIndex: key, isOpen: true });
+    console.log(photos[key].src);
   };
 
   return (
@@ -20,15 +29,29 @@ const Gallery = ({ photos }) => {
           className="image-component"
           key={photo.key}
           photo={photo}
-          openSliderModal={openSliderModal}
+          openSliderModal={() => openSliderModal(photo.key)}
         />
       ))}
-      <SliderModal
-        photos={photos}
-        index={photoIndex}
-        showModal={showModal}
-        setShowModal={setShowModal}
-      />
+      <div>
+        {isOpen && (
+          <Lightbox
+            mainSrc={photoSrc[photoIndex]}
+            nextSrc={photoSrc[(photoIndex + 1) % photoSrc.length]}
+            prevSrc={photoSrc[(photoIndex + photos.length - 1) % photos.length]}
+            onCloseRequest={() => setLightboxState({ isOpen: false })}
+            onMovePrevRequest={() =>
+              setLightboxState({
+                photoIndex: (photoIndex + photos.length - 1) % photos.length,
+              })
+            }
+            onMoveNextRequest={() =>
+              setLightboxState({
+                photoIndex: (photoIndex + 1) % photos.length,
+              })
+            }
+          />
+        )}
+      </div>
     </div>
   );
 };
