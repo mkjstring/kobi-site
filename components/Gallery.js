@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import SliderModal, { openSliderModal } from "./SliderModal";
 import ImageComponent from "./ImageComponent";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";

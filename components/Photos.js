@@ -1,9 +1,11 @@
 const LANDSCAPE = 'landscape';
 const PORTRAIT = 'portrait'
 
+const PATH = '/img/optimized/'
+
 export const photos = [
     {
-      src: "/img/kobi/FD1U7915.jpg",
+      src: PATH + "FD1U7915.jpg",
       width:  929.9,
       height: 620,
       key: 0,
@@ -15,7 +17,7 @@ export const photos = [
       homepage: true
     },
     {
-      src: "/img/kobi/0X9A9184.jpg",
+      src: `${PATH}0X9A9184.jpg`,
       width: 3,
       height: 4,
       key: 1,
@@ -27,7 +29,7 @@ export const photos = [
       homepage: true
     },
     {
-      src: "/img/kobi/7H2A8660 2.JPG",
+      src: `${PATH}7H2A8660 2.JPG`,
       width:  929.9,
       height: 620,
       key: 2,
@@ -39,7 +41,7 @@ export const photos = [
       homepage: true
     },
     {
-      src: "/img/kobi/_F0A5112.jpg",
+      src: `${PATH}_F0A5112.jpg`,
       width: 3,
       height: 4,
       key: 3,
@@ -51,7 +53,7 @@ export const photos = [
       homepage: true
     },
     {
-      src: "/img/kobi/7H2A1896.JPG",
+      src: `${PATH}7H2A1896.JPG`,
       width: 3,
       height: 4,
       key: 4,
@@ -63,7 +65,7 @@ export const photos = [
       homepage: true
     },
     {
-      src: "/img/kobi/0X9A9188.jpg",
+      src: `${PATH}0X9A9188.jpg`,
       width: 3,
       height: 4,
       key: 5,
@@ -75,7 +77,7 @@ export const photos = [
       homepage: true
     },
     {
-      src: "/img/kobi/1S6A3166.jpg",
+      src: `${PATH}1S6A3166.jpg`,
       width: 3,
       height: 4,
       key: 6,
@@ -87,7 +89,7 @@ export const photos = [
       homepage: true
     },
     {
-      src: "/img/kobi/FD1U8022.jpg",//source.unsplash.com/I1ASdgphUH4/800x599,
+      src: `${PATH}FD1U8022.jpg`,//source.unsplash.com/I1ASdgphUH4/800x599,
       width: 3,
       height: 4,
       key: 7,
@@ -99,7 +101,7 @@ export const photos = [
       homepage: true
     },
     {
-      src: "/img/kobi/FD1U6972-3.jpg",
+      src: `${PATH}FD1U6972-3.jpg`,
       width: 3,
       height: 4,
       key: 8,
@@ -111,7 +113,7 @@ export const photos = [
       homepage: true
     },
     {
-      src: "/img/kobi/0X9A8563.jpg",//source.unsplash.com/I1ASdgphUH4/800x599,
+      src: `${PATH}0X9A8563.jpg`,
       width: 3,
       height: 4,
       key: 9,
@@ -123,7 +125,7 @@ export const photos = [
       homepage: true
     },
     {
-      src: "/img/kobi/0X9A0027.JPG",
+      src: `${PATH}0X9A0027.JPG`,
       width: 3,
       height: 4,
       key: 10,
@@ -135,7 +137,7 @@ export const photos = [
       homepage: true
     },
     {
-      src: "/img/kobi/FD1U7367.jpg",
+      src: `/img/kobi/FD1U7367.jpg`,
       width:  929.9,
       height: 620,
       key: 11,
@@ -147,7 +149,7 @@ export const photos = [
       homepage: true
     },
     {
-      src: "/img/kobi/FWDGUY.jpg",
+      src: `${PATH}FWDGUY.jpg`,
       width:  929.9,
       height: 620,
       key: 12,
@@ -159,7 +161,7 @@ export const photos = [
       homepage: false
     },
     {
-      src: "/img/kobi/FD1U7554.jpg",
+      src: `${PATH}FD1U7554.jpg`,
       width:  929.9,
       height: 620,
       key: 13,
@@ -171,7 +173,7 @@ export const photos = [
       homepage: true
     },
     {
-      src: "/img/kobi/0X9A8593.jpg",
+      src: `${PATH}0X9A8593.jpg`,
       width:  929.9,
       height: 620,
       key: 14,
