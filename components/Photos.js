@@ -5,7 +5,7 @@ const PATH = '/img/optimized/'
 
 export const photos = [
     {
-      src: PATH + "FD1U7915.jpg",
+      src: `${PATH}FD1U7915.jpg`,
       width:  929.9,
       height: 620,
       key: 0,
