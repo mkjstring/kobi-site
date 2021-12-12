@@ -17,7 +17,6 @@ const Gallery = ({ photos }) => {
 
   const openSliderModal = (key) => {
     setLightboxState({ photoIndex: key, isOpen: true });
-    console.log(photos[key].src);
   };
 
   return (
@@ -40,12 +39,14 @@ const Gallery = ({ photos }) => {
             onCloseRequest={() => setLightboxState({ isOpen: false })}
             onMovePrevRequest={() =>
               setLightboxState({
-                photoIndex: (photoIndex + photos.length - 1) % photos.length,  isOpen: true
+                photoIndex: (photoIndex + photos.length - 1) % photos.length,
+                isOpen: true
               })
             }
             onMoveNextRequest={() =>
               setLightboxState({
-                photoIndex: (photoIndex + 1) % photos.length, isOpen: true
+                photoIndex: (photoIndex + 1) % photos.length,
+                isOpen: true
               })
             }
           />
