@@ -1,7 +1,12 @@
+const PATH = '/img/optimized/'
+//image orientation
 const LANDSCAPE = 'landscape';
+//use for orientation and for category
 const PORTRAIT = 'portrait'
 
-const PATH = '/img/optimized/'
+//CATEGORIES
+const LIVE = 'live'
+const LIFESTYLE = 'lifestyle'
 
 export const photos = [
     {
@@ -14,7 +19,8 @@ export const photos = [
       alt: "Warmly colored photo of <BAND NAME HERE> performing live",
       useInHeroCarousel: false,
       orientation: LANDSCAPE,
-      homepage: true
+      homepage: true,
+      categories: [LIVE]
     },
     {
       src: `${PATH}0X9A9184.jpg`,
@@ -26,7 +32,8 @@ export const photos = [
       alt: "Birds eye view, violet-hued photograph of brightly colored buildings by a forested river",
       useInHeroCarousel: true,
       orientation: PORTRAIT,
-      homepage: true
+      homepage: true,
+      categories: [LIFESTYLE]
     },
     {
       src: `${PATH}7H2A8660 2.jpg`,
@@ -38,7 +45,8 @@ export const photos = [
       alt: "Live band performance. Performer laying on the ground and causing sparks with a saw",
       useInHeroCarousel: false,
       orientation: LANDSCAPE,
-      homepage: true
+      homepage: true,
+      categories: [LIVE]
     },
     {
       src: `${PATH}_F0A5112.jpg`,
@@ -50,7 +58,8 @@ export const photos = [
       alt: "Black and white photograph of snowcapped woods surrounding a waterfall and river",
       useInHeroCarousel: true,
       orientation: PORTRAIT,
-      homepage: true
+      homepage: true,
+      categories: [LIFESTYLE]
     },
     {
       src: `${PATH}7H2A1896.jpg`,
@@ -62,7 +71,8 @@ export const photos = [
       alt: "Black and white photograph of a lone, winter dormant tree against an overcast sky ",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: true
+      homepage: true,
+      categories: [LIFESTYLE]
     },
     {
       src: `${PATH}0X9A9188.jpg`,
@@ -74,7 +84,8 @@ export const photos = [
       alt: "Birds eye view photograph of a beach with a small, lone figure walking along the coast. ",
       useInHeroCarousel: true,
       orientation: PORTRAIT,
-      homepage: true
+      homepage: true,
+      categories: [LIFESTYLE]
     },
     {
       src: `${PATH}1S6A3166.jpg`,
@@ -86,7 +97,8 @@ export const photos = [
       alt: "Black and white portrait",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: true
+      homepage: true,
+      categories: [PORTRAIT]
     },
     {
       src: `${PATH}FD1U8022.jpg`,//source.unsplash.com/I1ASdgphUH4/800x599,
@@ -98,7 +110,8 @@ export const photos = [
       alt:  "Live performance of <BAND NAME HERE> with smoke and purple hue",
       useInHeroCarousel: true,
       orientation: PORTRAIT,
-      homepage: true
+      homepage: true,
+      categories: [LIVE]
     },
     {
       src: `${PATH}FD1U6972-3.jpg`,
@@ -110,7 +123,8 @@ export const photos = [
       alt: "Color photo of man walking in downtown Huntsville, AL across wet pavement crosswalk",
       useInHeroCarousel: true,
       orientation: PORTRAIT,
-      homepage: true
+      homepage: true,
+      categories: [LIFESTYLE]
     },
     {
       src: `${PATH}0X9A8563.jpg`,
@@ -122,7 +136,8 @@ export const photos = [
       alt: "Black and white portrait",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: true
+      homepage: true,
+      categories: [PORTRAIT]
     },
     {
       src: `${PATH}0X9A0027.jpg`,
@@ -134,7 +149,8 @@ export const photos = [
       alt: "Black and white portrait",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: true
+      homepage: true,
+      categories: [PORTRAIT]
     },
     {
       src: `${PATH}FD1U7367.jpg`,
@@ -146,7 +162,8 @@ export const photos = [
       alt: "Live performance of Comeback Kid from FurnaceFest 2021 in Birmingham, AL",
       useInHeroCarousel: true,
       orientation: LANDSCAPE,
-      homepage: true
+      homepage: true,
+      categories: [LIVE]
     },
     {
       src: `${PATH}FWDGUY.jpg`,
@@ -158,7 +175,8 @@ export const photos = [
       alt: "Photograph of a sharply dressed man with cheap sunglasses doing a stoppie (front wheelie) on a bicycle in front of a shop in downtown Huntsville, AL ",
       useInHeroCarousel: true,
       orientation: LANDSCAPE,
-      homepage: true
+      homepage: true,
+      categories: [LIFESTYLE]
     },
     {
       src: `${PATH}FD1U7554.jpg`,
@@ -167,10 +185,11 @@ export const photos = [
       key: 13,
       width2: 466,
       height2: 310.7,
-      alt: "Live performance of <BAND NAME HERE> from FurnaceFest 2021 in Birmingham, AL",
+      alt: "Live performance of Darkest Hour from FurnaceFest 2021 in Birmingham, AL",
       useInHeroCarousel: false,
       orientation: LANDSCAPE,
-      homepage: true
+      homepage: true,
+      categories: [LIVE]
     },
     {
       src: `${PATH}0X9A8593.jpg`,
@@ -182,7 +201,8 @@ export const photos = [
       alt: "Black and white photo of public demonstration in downtown Huntsville, AL",
       useInHeroCarousel: true,
       orientation: LANDSCAPE,
-      homepage: true
+      homepage: true,
+      categories: [LIFESTYLE]
     },
     {
       src: `${PATH}000017320007.jpg`,
@@ -194,7 +214,8 @@ export const photos = [
       alt: "Woman with painted face and cowgirl hat.",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [PORTRAIT]
     },
     {
       src: `${PATH}000019150020.jpg`,
@@ -206,7 +227,8 @@ export const photos = [
       alt: "Color portrait of some nerd",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [PORTRAIT]
     },
     {
       src: `${PATH}000022210024.jpg`,
@@ -218,7 +240,8 @@ export const photos = [
       alt: "Whippet man with his can and minis",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [PORTRAIT]
     },
     {
       src: `${PATH}000026150018.jpg`,
@@ -230,7 +253,8 @@ export const photos = [
       alt: "Man posing in front of a graveyard in Huntsville, AL",
       useInHeroCarousel: false,
       orientation: LANDSCAPE,
-      homepage: false
+      homepage: false,
+      categories: [LIFESTYLE]
     },
     {
       src: `${PATH}000026150019.jpg`,
@@ -242,7 +266,8 @@ export const photos = [
       alt: "Man sparking up",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [LIFESTYLE]
     },
     {
       src: `${PATH}000026150033.jpg`,
@@ -254,7 +279,8 @@ export const photos = [
       alt: "Utah Jazz",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [LIFESTYLE]
     },
     {
       src: `${PATH}FD1U0167.jpg`,
@@ -266,7 +292,8 @@ export const photos = [
       alt: "Knocked Loose in Huntsville, AL",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [LIVE]
     },
     {
       src: `${PATH}FD1U0287.jpg`,
@@ -278,7 +305,8 @@ export const photos = [
       alt: "Knocked Loose performing in downtown Huntsville, AL",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [LIVE]
     },
     {
       src: `${PATH}FD1U0506.jpg`,
@@ -290,7 +318,8 @@ export const photos = [
       alt: "Gojira live in Huntsville, AL",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [LIVE]
     },
     {
       src: `${PATH}FD1U0656.jpg`,
@@ -302,7 +331,8 @@ export const photos = [
       alt: "Acacia Strain? in Huntsville, AL. ",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [LIVE]
     },
     {
       src: `${PATH}FD1U1262.jpg`,
@@ -314,7 +344,8 @@ export const photos = [
       alt: "Dilapidated boat by a chain link fence.",
       useInHeroCarousel: false,
       orientation: LANDSCAPE,
-      homepage: false
+      homepage: false,
+      categories: [LIFESTYLE]
     },
     {
       src: `${PATH}FD1U8614.jpg`,
@@ -326,7 +357,8 @@ export const photos = [
       alt: "DO SOMETHING GREAT",
       useInHeroCarousel: false,
       orientation: LANDSCAPE,
-      homepage: false
+      homepage: false,
+      categories: [LIFESTYLE]
     },
     {
       src: `${PATH}FD1U8808.jpg`,
@@ -338,7 +370,8 @@ export const photos = [
       alt: "Black and white photograph of a lake",
       useInHeroCarousel: false,
       orientation: LANDSCAPE,
-      homepage: false
+      homepage: false,
+      categories: [LIFESTYLE]
     },
     {
       src: `${PATH}0X9A0125.jpg`,
@@ -350,7 +383,8 @@ export const photos = [
       alt: "Black and white portrait",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [PORTRAIT]
     },
     {
       src: `${PATH}0X9A0150.JPG`,
@@ -362,7 +396,8 @@ export const photos = [
       alt: "Black and white portrait aga",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [PORTRAIT]
     },
     {
       src: `${PATH}0X9A1771 2.JPG`,
@@ -374,7 +409,8 @@ export const photos = [
       alt: "Black and white portrait",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [PORTRAIT]
     },
     {
       src: `${PATH}0X9A4309.jpg`,
@@ -386,7 +422,8 @@ export const photos = [
       alt: "Cancerslug on couch",
       useInHeroCarousel: false,
       orientation: LANDSCAPE,
-      homepage: false
+      homepage: false,
+      categories: [LIFESTYLE]
     },
     {
       src: `${PATH}0X9A4334.jpg`,
@@ -398,7 +435,8 @@ export const photos = [
       alt: "UNHOLY CANCERSLUG",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [LIFESTYLE]
     },
     {
       src: `${PATH}0X9A7157.JPG`,
@@ -410,7 +448,8 @@ export const photos = [
       alt: "Black and white portrait",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [PORTRAIT]
     },
     {
       src: `${PATH}0X9A8456.jpg`,
@@ -422,7 +461,8 @@ export const photos = [
       alt: "Black and white portrait",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [PORTRAIT]
     },
     {
       src: `${PATH}0X9A9371.JPG`,
@@ -434,7 +474,8 @@ export const photos = [
       alt: "Black and white pizza portrait",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [PORTRAIT]
     },
     {
       src: `${PATH}0X9A9487.JPG`,
@@ -446,7 +487,8 @@ export const photos = [
       alt: "Drummer in fishnets",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [LIVE]
     },
     {
       src: `${PATH}0X9A9611.JPG`,
@@ -458,7 +500,8 @@ export const photos = [
       alt: "Mic Hole",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [LIVE]
     },
     {
       src: `${PATH}1S6A2069 3.JPG`,
@@ -470,7 +513,8 @@ export const photos = [
       alt: "Looking out of a window",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [LIFESTYLE]
     },
     {
       src: `${PATH}1S6A5691.jpg`,
@@ -482,7 +526,8 @@ export const photos = [
       alt: "Color Portrait",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [PORTRAIT]
     },
     {
       src: `${PATH}7H2A7447.JPG`,
@@ -494,7 +539,8 @@ export const photos = [
       alt: "Killough's tongue",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [PORTRAIT]
     },
     {
       src: `${PATH}7H2A8348.JPG`,
@@ -506,7 +552,8 @@ export const photos = [
       alt: "black and white portrait",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [PORTRAIT]
     },
     {
       src: `${PATH}7H2A8449.JPG`,
@@ -518,7 +565,8 @@ export const photos = [
       alt: "black and white portrait. Jugalette?",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [PORTRAIT]
     },
     {
       src: `${PATH}7H2A8589 2.JPG`,
@@ -530,7 +578,8 @@ export const photos = [
       alt: "there's a thick tophat",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [LIFESTYLE]
     },
     {
       src: `${PATH}000000060007.jpg`,
@@ -542,7 +591,8 @@ export const photos = [
       alt: "black and white portrait",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [PORTRAIT]
     },
     {
       src: `${PATH}FD1U6892-2.jpg`,
@@ -554,7 +604,8 @@ export const photos = [
       alt: "goody vault masked up",
       useInHeroCarousel: false,
       orientation: LANDSCAPE,
-      homepage: false
+      homepage: false,
+      categories: [LIFESTYLE]
     },
     {
       src: `${PATH}FD1U7445.jpg`,
@@ -566,7 +617,8 @@ export const photos = [
       alt: "pumped",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [LIFESTYLE]
     },
     {
       src: `${PATH}FD1U7956.jpg`,
@@ -578,7 +630,8 @@ export const photos = [
       alt: "Furnace Fest Birmingham, AL",
       useInHeroCarousel: false,
       orientation: PORTRAIT,
-      homepage: false
+      homepage: false,
+      categories: [LIVE]
     }, 
   ];
 
