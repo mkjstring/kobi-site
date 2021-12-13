@@ -137,7 +137,7 @@ export const photos = [
       homepage: true
     },
     {
-      src: `/img/kobi/FD1U7367.jpg`,
+      src: `${PATH}FD1U7367.jpg`,
       width:  929.9,
       height: 620,
       key: 11,
