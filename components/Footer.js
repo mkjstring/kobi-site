@@ -10,11 +10,11 @@ const Footer = () => {
             <div className="row">
               <div className="column">
                 <h6 className="mb-3">CONTACT</h6>
-                <h6>+99 1234-5678-9</h6>
-                <p className="f-14">
-                  1234 Lorem Ipsum dummy text, 12345
+                <h6>+1 938 666 0027</h6>
+                <p>
+                101 CLINTON AVE E NE, HUNTSVILLE, AL 35801
                 </p>
-                <h6 className="pb-2">Email: email@email.com</h6>
+                <p>EMAIL: KOBICHILDERS@GMAIL.COM</p>
               </div>
             </div>
           </div>

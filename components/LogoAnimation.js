@@ -11,7 +11,7 @@ const LogoAnimation = () => {
 
         <div className="role">
           <div className="block"></div>
-          <p>Photographer</p>
+          <p>Photography</p>
         </div>
       </div>
     </div>

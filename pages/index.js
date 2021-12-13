@@ -16,11 +16,11 @@ const Index = () => {
   return (
     <div className="wrapper">
       <Head>
-        <title> Kobi Childers Photography</title>
-        <meta name="description" content="Check out photos by Kobi Childers" />
-        <meta property="og:title" content="Kobi Childers Photography" />
+        <title> Kobi Mathis Photography</title>
+        <meta name="description" content="Check out photos by Kobi Mathis" />
+        <meta property="og:title" content="Kobi Mathis Photography" />
       </Head>
-      <Layout pageTitle="Kobi Childers Photography">
+      <Layout pageTitle="Kobi Mathis Photography">
         <main className="main">
           <div className="content">
           <LogoAnimation/>

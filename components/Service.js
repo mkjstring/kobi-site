@@ -7,7 +7,7 @@ const Service = () => {
     <section className="section" id="service">
       <div className='container'>
         <h3>SERVICES</h3>
-        <p>placeholder</p>
+        <p>COMING SOON</p>
       </div>
     </section>
   );
