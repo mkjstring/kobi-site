@@ -8,7 +8,6 @@ import Footer from "../components/Footer";
 import Carousel from "../components/Carousel";
 import FadeInSection from "../components/FadeInSection";
 import SocialMedia from "../components/SocialMedia";
-import ImageSlider from "../components/ImageSlider";
 import { photos } from "../components/Photos";
 import LogoAnimation from "../components/LogoAnimation";
 
@@ -31,7 +30,7 @@ const Index = () => {
             <FadeInSection>
               <About className="about" />
             </FadeInSection>
-            <Gallery photos={photos} />
+            <Gallery photos={photos} onHomepage={false}/>
             <FadeInSection>
               <Service className="service" />
             </FadeInSection>

@@ -11,9 +11,9 @@ export const Child = (photo,openSliderModal) => {
             className="load-daddy"
             key={photo.key}
             alt={photo.alt}
-            height={photo.height2}
+            height={photo.height}
             src={photo.src} // use normal <img> attributes as props
-            width={photo.width2}
+            width={photo.width}
             onClick={()=>openSliderModal()}
           />
         </FadeInSection>

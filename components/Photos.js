@@ -29,7 +29,7 @@ export const photos = [
       homepage: true
     },
     {
-      src: `${PATH}7H2A8660 2.JPG`,
+      src: `${PATH}7H2A8660 2.jpg`,
       width:  929.9,
       height: 620,
       key: 2,
@@ -53,7 +53,7 @@ export const photos = [
       homepage: true
     },
     {
-      src: `${PATH}7H2A1896.JPG`,
+      src: `${PATH}7H2A1896.jpg`,
       width: 3,
       height: 4,
       key: 4,
@@ -72,7 +72,7 @@ export const photos = [
       width2: 466,
       height2: 621.3,
       alt: "Birds eye view photograph of a beach with a small, lone figure walking along the coast. ",
-      useInHeroCarousel: "",
+      useInHeroCarousel: true,
       orientation: PORTRAIT,
       homepage: true
     },
@@ -125,14 +125,14 @@ export const photos = [
       homepage: true
     },
     {
-      src: `${PATH}0X9A0027.JPG`,
+      src: `${PATH}0X9A0027.jpg`,
       width: 3,
       height: 4,
       key: 10,
       width2: 466,
       height2: 621.3,
       alt: "Black and white portrait",
-      useInHeroCarousel: "",
+      useInHeroCarousel: false,
       orientation: PORTRAIT,
       homepage: true
     },
@@ -158,7 +158,7 @@ export const photos = [
       alt: "Photograph of a sharply dressed man with cheap sunglasses doing a stoppie (front wheelie) on a bicycle in front of a shop in downtown Huntsville, AL ",
       useInHeroCarousel: true,
       orientation: LANDSCAPE,
-      homepage: false
+      homepage: true
     },
     {
       src: `${PATH}FD1U7554.jpg`,
@@ -182,16 +182,416 @@ export const photos = [
       alt: "Black and white photo of public demonstration in downtown Huntsville, AL",
       useInHeroCarousel: true,
       orientation: LANDSCAPE,
+      homepage: true
+    },
+    {
+      src: `${PATH}000017320007.jpg`,
+      width: 3,
+      height: 4,
+      key: 15,
+      width2: 466,
+      height2: 621.3,
+      alt: "Woman with painted face and cowgirl hat.",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
       homepage: false
-    }
+    },
+    {
+      src: `${PATH}000019150020.jpg`,
+      width: 3,
+      height: 4,
+      key: 16,
+      width2: 466,
+      height2: 621.3,
+      alt: "Color portrait of some nerd",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}000022210024.jpg`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "Whippet man with his can and minis",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}000026150018.jpg`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 310.7,
+      alt: "Man posing in front of a graveyard in Huntsville, AL",
+      useInHeroCarousel: false,
+      orientation: LANDSCAPE,
+      homepage: false
+    },
+    {
+      src: `${PATH}000026150019.jpg`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "Man sparking up",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}000026150033.jpg`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "Utah Jazz",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}FD1U0167.jpg`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "Knocked Loose in Huntsville, AL",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}FD1U0287.jpg`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "Knocked Loose performing in downtown Huntsville, AL",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}FD1U0506.jpg`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "Gojira live in Huntsville, AL",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}FD1U0656.jpg`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "Acacia Strain? in Huntsville, AL. ",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}FD1U1262.jpg`,
+      width:  929.9,
+      height: 620,
+      key: 17,
+      width2:  929.9,
+      height2: 620,
+      alt: "Dilapidated boat by a chain link fence.",
+      useInHeroCarousel: false,
+      orientation: LANDSCAPE,
+      homepage: false
+    },
+    {
+      src: `${PATH}FD1U8614.jpg`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 310.7,
+      alt: "DO SOMETHING GREAT",
+      useInHeroCarousel: false,
+      orientation: LANDSCAPE,
+      homepage: false
+    },
+    {
+      src: `${PATH}FD1U8808.jpg`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 310.7,
+      alt: "Black and white photograph of a lake",
+      useInHeroCarousel: false,
+      orientation: LANDSCAPE,
+      homepage: false
+    },
+    {
+      src: `${PATH}0X9A0125.jpg`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "Black and white portrait",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}0X9A0150.JPG`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "Black and white portrait aga",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}0X9A1771 2.JPG`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "Black and white portrait",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}0X9A4309.jpg`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 310.7,
+      alt: "Cancerslug on couch",
+      useInHeroCarousel: false,
+      orientation: LANDSCAPE,
+      homepage: false
+    },
+    {
+      src: `${PATH}0X9A4334.jpg`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "UNHOLY CANCERSLUG",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}0X9A7157.JPG`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "Black and white portrait",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}0X9A8456.jpg`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "Black and white portrait",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}0X9A9371.JPG`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "Black and white pizza portrait",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}0X9A9487.JPG`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "Drummer in fishnets",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}0X9A9611.JPG`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "Mic Hole",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}1S6A2069 3.JPG`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "Looking out of a window",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}1S6A5691.jpg`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "Color Portrait",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}7H2A7447.JPG`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "Killough's tongue",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}7H2A8348.JPG`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "black and white portrait",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}7H2A8449.JPG`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "black and white portrait. Jugalette?",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}7H2A8589 2.JPG`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "there's a thick tophat",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}000000060007.jpg`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "black and white portrait",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}FD1U6892-2.jpg`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 310.7,
+      alt: "goody vault masked up",
+      useInHeroCarousel: false,
+      orientation: LANDSCAPE,
+      homepage: false
+    },
+    {
+      src: `${PATH}FD1U7445.jpg`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "pumped",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    },
+    {
+      src: `${PATH}FD1U7956.jpg`,
+      width: 3,
+      height: 4,
+      key: 17,
+      width2: 466,
+      height2: 621.3,
+      alt: "Furnace Fest Birmingham, AL",
+      useInHeroCarousel: false,
+      orientation: PORTRAIT,
+      homepage: false
+    }, 
   ];
-  
+
 
 export const getImagesForCarouselBasedOnScreenSize = (photos, screenOrientation) => {
-  return photos.filter(photo => photo.orientation == screenOrientation && photo.useInHeroCarousel == true)
+  return photos.filter(photo => photo.orientation == screenOrientation && photo.useInHeroCarousel === true);
+}
+
+export const getHomePageImages = (photos, onHomepage) => {
+  //return onHomepage ?  Object.values(photos).filter(photo => photo.homepage === true) : photos;
+  return photos;
 }
 
 export const getListOfImageSources = (photos) => {
-  
-  return photos.map(photo => photo.src)
+  return photos.map(photo => photo.src);
 }

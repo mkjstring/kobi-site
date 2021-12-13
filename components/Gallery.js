@@ -2,18 +2,18 @@ import React, { useState } from "react";
 import ImageComponent from "./ImageComponent";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
-import { light } from "@material-ui/core/styles/createPalette";
-import { getListOfImageSources } from "./Photos";
+import { getHomePageImages, getListOfImageSources } from "./Photos";
 
-const Gallery = ({ photos }) => {
+const Gallery = ({ photos }, onHomepage) => {
   const [lightboxState, setLightboxState] = useState({
     photoIndex: 0,
     isOpen: false,
   });
-
+  
   const { photoIndex, isOpen } = lightboxState;
 
-  const photoSrc = getListOfImageSources(photos);
+  const selectedPhotos = getHomePageImages(photos, onHomepage);
+  const photoSrc = getListOfImageSources(selectedPhotos);
 
   const openSliderModal = (key) => {
     setLightboxState({ photoIndex: key, isOpen: true });
@@ -21,13 +21,13 @@ const Gallery = ({ photos }) => {
 
   return (
     <div className="eager-load" id="gallery" onChildClick={openSliderModal}>
-      {photos.map((photo) => (
+      {selectedPhotos.map((photo, index) => (
         // eslint-disable-next-line react/jsx-key
         <ImageComponent
           className="image-component"
           key={photo.key}
           photo={photo}
-          openSliderModal={() => openSliderModal(photo.key)}
+          openSliderModal={() => openSliderModal(index)}
         />
       ))}
       <div>
@@ -35,17 +35,17 @@ const Gallery = ({ photos }) => {
           <Lightbox
             mainSrc={photoSrc[photoIndex]}
             nextSrc={photoSrc[(photoIndex + 1) % photoSrc.length]}
-            prevSrc={photoSrc[(photoIndex + photos.length - 1) % photos.length]}
+            prevSrc={photoSrc[(photoIndex + photoSrc.length - 1) % photoSrc.length]}
             onCloseRequest={() => setLightboxState({ isOpen: false })}
             onMovePrevRequest={() =>
               setLightboxState({
-                photoIndex: (photoIndex + photos.length - 1) % photos.length,
+                photoIndex: (photoIndex + photoSrc.length - 1) % photoSrc.length,
                 isOpen: true
               })
             }
             onMoveNextRequest={() =>
               setLightboxState({
-                photoIndex: (photoIndex + 1) % photos.length,
+                photoIndex: (photoIndex + 1) % photoSrc.length,
                 isOpen: true
               })
             }
