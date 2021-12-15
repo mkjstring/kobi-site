@@ -9,7 +9,8 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
-import Image from 'next/image'
+import Image from "next/image";
+import Link from "next/link";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,27 +33,31 @@ const Header = () => {
     <div className={`header${sticky ? " sticky" : ""}`}>
       <Navbar dark expand="md">
         <Container>
-          <NavbarBrand href="/"><Image className='logo' width='100' height='40' alt='logo' src='/img/kobi/logo.jpeg'/></NavbarBrand>
+          <NavbarBrand href="/">
+            <Image
+              className="logo"
+              width="100"
+              height="40"
+              alt="logo"
+              src="/img/kobi/logo.jpeg"
+            />
+          </NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="m-auto" navbar>
               <NavItem>
-                <NavLink href="/">HOME</NavLink>
+                <Link href="/">HOME</Link>
               </NavItem>
               <NavItem>
-                <NavLink className="menu-item" href="#gallery">
-                  GALLERY
-                </NavLink>
+                <Link href="/#gallery">GALLERY</Link>
               </NavItem>
-              <NavItem>
-                <NavLink className="menu-item" href="#about">
+              <NavItem className="menu-item">
+                <Link className="menu-item" href="/About">
                   ABOUT
-                </NavLink>
+                </Link>
               </NavItem>
               <NavItem>
-                <NavLink className="menu-item" href="#service">
-                  SERVICES
-                </NavLink>
+                <Link href="/#service">SERVICES</Link>
               </NavItem>
             </Nav>
           </Collapse>

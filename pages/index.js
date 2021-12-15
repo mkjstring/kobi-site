@@ -30,7 +30,7 @@ const Index = () => {
             <FadeInSection>
               <About className="about" />
             </FadeInSection>
-            <Gallery photos={photos} onHomepage={false}/>
+            <Gallery className="gallery" photos={photos} onHomepage={false}/>
             <FadeInSection>
               <Service className="service" />
             </FadeInSection>

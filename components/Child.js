@@ -5,7 +5,7 @@ import Image from 'next/image'
 export const Child = (photo,openSliderModal) => {
 
     return(
-        <FadeInSection className="gallery-item" key={photo.key}>
+        <FadeInSection className="fade-in" id="gallery-item" key={photo.key}>
           <Image
             loading="eager"
             className="load-daddy"
