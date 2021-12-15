@@ -80,17 +80,6 @@ const AboutPage = () => {
               - KOBI MATHIS
             </p>
           </FadeInSection>
-          <FadeInSection className="image3" key={3}>
-            <Image
-              className="about-photo"
-              loading="eager"
-              src={`${PATH}IMG_4365.jpg`}
-              alt="test"
-              height={621}
-              key={3} // use normal <img> attributes as props
-              width={932}
-            />
-          </FadeInSection>
         </body>
       </div>
       <SocialMedia className="about-social"/>
