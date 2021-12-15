@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section id="about">
         <div className="about">
-          <h3 className="about-header">
+          <h3 className="header">
             <span className="text-warning">KOBI MATHIS PHOTOGRAPHY</span>
           </h3>
           <p className="descriptive-text">Kobi Mathis is a photographer and musician based out of Huntsville, AL.</p>
